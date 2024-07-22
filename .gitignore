@@ -1,0 +1,8 @@
+.vs
+obj
+bin
+mcr.csproj.user
+build.bat
+mcr-release
+mcr-release.zip
+## github.com/lalakii

@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mcr", "mcr.csproj", "{7428D979-41F0-4763-9FC4-2B458D83E605}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|x64 = Default|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7428D979-41F0-4763-9FC4-2B458D83E605}.Default|x64.ActiveCfg = Default|x64
+		{7428D979-41F0-4763-9FC4-2B458D83E605}.Default|x64.Build.0 = Default|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6262E428-FA85-443C-8766-CF3D0576F29A}
+	EndGlobalSection
+EndGlobal
