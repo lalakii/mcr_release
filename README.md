@@ -1,22 +1,25 @@
 # mcr_release
-BIOS microcode update tool.
-[Download](https://github.com/lalakii/mcr_release/releases)
+Update the microcode in your bios firmware with this tool.
+
+You can use [MCExtractor](https://github.com/platomav/MCExtractor) to view and extract the current microcode.
+
+You can download the microcode from [CPUMicrocodes](https://github.com/platomav/CPUMicrocodes).
 
 Linux:
 
-```bash
-chmod +x lalaki_mcr
+```console
+chmod +x mcr.linux-x64
 
-./lalaki_mcr -u "your_bios_file" -src "your_old_microcode" -dest "new_microcode"
+./mcr.linux-x64 -u "your_bios_file" -src "your_current_microcode" -dest "new_microcode"
 ```
 Windows Powershell:
-```powershell
-.\lalaki_mcr -u "your_bios_file" -src "your_old_microcode" -dest "new_microcode"
+```console
+.\mcr -u "your_bios_file" -src "your_current_microcode" -dest "new_microcode"
 ```
 Windows CMD:
-```batch
-lalaki_mcr -u "your_bios_file" -src "your_old_microcode" -dest "new_microcode"
+```console
+mcr -u "your_bios_file" -src "your_current_microcode" -dest "new_microcode"
 ```
 
 
-&copy; 2023 lalaki.cn
+&copy; 2024 lalaki.cn
